@@ -139,7 +139,7 @@ class UserResource extends NebulaResource
 Let us create a simple filter and add it to our user resource.
 
 ```bash
-php artisan make:filter WhereNameStartsWithAFilter
+php artisan nebula:filter WhereNameStartsWithAFilter
 ```
 
 Once the filter is created, let us make it do something useful.
